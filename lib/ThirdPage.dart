@@ -6,6 +6,7 @@ class ThirdPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView (
+        physics: const NeverScrollableScrollPhysics(),
         children: <Widget>[
           Padding(
               padding: EdgeInsets.only(top: 15, left: 10),
@@ -49,7 +50,7 @@ class ThirdPage extends StatelessWidget {
             child: Row(
               children: <Widget>[
                 Text(
-                  'Faris',
+                  'Flutter',
                   style: TextStyle(
                     fontSize: 25,
                     color: Colors.white,
@@ -58,7 +59,7 @@ class ThirdPage extends StatelessWidget {
                 ),
                 SizedBox(width: 10),
                 Text(
-                  'Muhammed',
+                  'Sample',
                   style: TextStyle(
                     fontSize: 25,
                     color: Colors.white,
@@ -85,7 +86,7 @@ class ThirdPage extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(top: 45,bottom: 0),
                   child: Container(
-                    height: MediaQuery.of(context).size.height - 320,
+                    height: MediaQuery.of(context).size.height - 350,
                     child: ListView(
                       children: <Widget>[
                         buildFoodItem(context,'images/food1.jpg', 'Food 1', '\$10', 0),
