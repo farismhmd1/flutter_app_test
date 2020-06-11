@@ -1,4 +1,4 @@
-# flutter sample Application
+# flutter sample application
 
 A Flutter application created for learning.
 - NAvigation from one page to another
