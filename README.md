@@ -12,17 +12,17 @@ A Flutter application created for learning.
 - Custom navigation bar
 
 <p align="center">
-  <img src= "screenshots/ss1.png" width="320" >
+  <img src= "screenshots/ss1.PNG" width="320" >
 </p>
 
 <p align="center">
-  <img src= "screenshots/ss2.png" width="320" >
+  <img src= "screenshots/ss2.PNG" width="320" >
 </p>
 
 <p align="center">
-  <img src= "screenshots/ss3.png" width="320" >
+  <img src= "screenshots/ss3.PNG" width="320" >
 </p>
 
 <p align="center">
-  <img src= "screenshots/ss4.png" width="320" >
+  <img src= "screenshots/ss4.PNG" width="320" >
 </p>
